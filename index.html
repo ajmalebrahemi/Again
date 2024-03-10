@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>This is an example of <span style="color: red;">" if "</span>  Condition in JS with new date element</h1>
+
+    <!-- <script>
+        alert("Are you ready to go ahead?")
+    </script> -->
+
+    <h2 id="demo">Hello Good Morning!</h2>
+    <script>
+      if (new Date().getHours() <12) {
+        document.getElementById("demo");
+      }else if(new Date().getHours()>=12 && new Date().getHours()<=17){
+        console.log("good noon")
+      }
+      else{
+        console.log("good night");
+      }
+      function hello(){
+        const heading=document.querySelector('h3');
+        if (heading.innerHTML==="ajmal"){
+          heading.innerHTML='img';
+        }else{
+          heading.innerHTML="ajmal";
+        }
+        
+        
+      }
+    </script>
+    <h3>ajmal</h3>
+    
+    <button onclick="hello()"><img src="tyui.JPG" width="20%" alt="ajmal image"></button>
+  </body>
+</html>
